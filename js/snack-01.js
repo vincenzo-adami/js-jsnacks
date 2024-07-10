@@ -1,4 +1,4 @@
-// L’utente inserisce due numeri in successione
+// L’utente inserisce due numeri in successione, con due prompt.
 // Il software stampa il maggiore.
 
 let num1 = parseFloat(prompt('Scrivi un numero'));
