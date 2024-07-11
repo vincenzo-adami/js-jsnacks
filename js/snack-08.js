@@ -2,15 +2,15 @@
 // A questo punto fate giocare l’utente, fintanto che non vince la partita contro il PC
 
 let randomNumber = Math.round(Math.random() * 10); // intevallo 0-10, estremi compresi
-let result = true; // indica lo stato di vittoria o meno dell'utente(false = vinto, true = perso)
+let result = false; // indica lo stato di vittoria o meno dell'utente
 
 do {
   let userNumber = parseInt(prompt('Ti senti fortunato? Scrivi un numero intero'));
 
   if (userNumber === randomNumber) {
-    result = false;
+    result = true;
     console.log('HAI VINTO!')
   } else {
     console.log('Mi dispiace, hai perso! Ritenta')
   }
-} while (result);
+} while (result === false);
