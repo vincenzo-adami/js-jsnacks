@@ -11,7 +11,7 @@
 let numTabellina = 0;
 let numMaxIteraction = parseInt(prompt('Fin a che numero vuoi la tabellina del 2?'))
 
-while (numTabellina < numMaxIteraction) {
-  numTabellina += 2;
+while (numTabellina <= numMaxIteraction) {
   console.log(numTabellina)
+  numTabellina += 2;
 }
